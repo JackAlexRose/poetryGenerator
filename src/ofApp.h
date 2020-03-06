@@ -4,7 +4,6 @@
 #include "ofxJSON.h"
 #include "ofxGui.h"
 #include "tools.h"
-#include "ofxTextSuite.h"
 
 class ofApp : public ofBaseApp{
 
@@ -47,8 +46,6 @@ class ofApp : public ofBaseApp{
     ofTrueTypeFont bodyFont;
     string generatedPoemTitle;
     string generatedPoemBody;
-    
-    ofxTextBlock screenText;
-    
+        
     int titleStartY, bodyStartY, scrollSpeed;
 };
